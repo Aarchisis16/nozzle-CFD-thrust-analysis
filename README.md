@@ -3,6 +3,9 @@
 ## Overview
 This project analyzes compressible flow in a converging-diverging nozzle using CFD and computes thrust using C++ based on simulation results.
 
+## Key Insight
+The project demonstrates how pressure energy is converted into kinetic energy in a converging-diverging nozzle, and how this directly influences thrust generation.
+
 ## What I Did
 - Simulated nozzle flow using ANSYS Fluent  
 - Analyzed velocity, pressure, Mach number, and temperature variation  
@@ -39,16 +42,16 @@ A 2D axisymmetric converging-diverging nozzle was designed to study compressible
 
 ### Velocity Contour
 Shows acceleration of flow through the nozzle, with maximum velocity in the diverging section.  
-![Velocity](images/velocity_graph.png)
+<img src="images/velocity_graph.png" width="600">
 
 ### Mach Number Contour
 Indicates increase in Mach number in the diverging section.  
-![Mach](images/Mach_graph.png)
+<img src="images/Mach_graph.png" width="600">
 
 ### Pressure Contour
 Shows pressure drop along the nozzle as velocity increases.  
-![Pressure](images/Pressure_graph.png)
+<img src="images/Pressure_graph.png" width="600">
 
 ### Temperature Contour
 Displays variation of temperature due to expansion of flow in the nozzle.  
-![Temperature](images/Temperature_graph.png)
+<img src="images/Temperature_graph.png" width="600">
